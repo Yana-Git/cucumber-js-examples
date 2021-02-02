@@ -7,7 +7,7 @@ Feature: Cucumber documentation
     Scenario: Usage documentation
         Given I am on the cucumber.js GitHub repository
         When I go to the README file
-        Then I should see a "Usage" section
+        Then I should not see a "Usage" section
 
 
     Scenario: Status badges
